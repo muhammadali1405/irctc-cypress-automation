@@ -20,7 +20,7 @@ on:
         description: "Your UPI ID To Make Payment From"
 jobs:
   IRCTC-Booking:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v4
